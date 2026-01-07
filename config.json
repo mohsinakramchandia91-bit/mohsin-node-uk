@@ -1,0 +1,22 @@
+{
+  "inbounds": [{
+    "port": 8080,
+    "protocol": "vmess",
+    "settings": {
+      "clients": [{
+        "id": "e86230f2-e13d-4c07-9d62-6e273f770141",
+        "alterId": 0
+      }]
+    },
+    "streamSettings": {
+      "network": "ws",
+      "wsSettings": {
+        "path": "/mohsin-node"
+      }
+    }
+  }],
+  "outbounds": [{
+    "protocol": "freedom",
+    "settings": {}
+  }]
+}
