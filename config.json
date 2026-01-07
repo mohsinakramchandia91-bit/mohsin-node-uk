@@ -7,14 +7,14 @@
     "protocol": "vmess",
     "settings": {
       "clients": [{
-        "id": "e86230f2-e13d-4c07-9d62-6e273f770141",
+        "id": "e86230f2-e13d-4c07-9d02-6e273f770141",
         "alterId": 0
       }]
     },
     "streamSettings": {
       "network": "ws",
       "wsSettings": {
-        "path": "/mohsin-node"
+        "path": "/default/mohsin-vpn-service/v1.0/mohsin-node"
       }
     }
   }],
