@@ -16,5 +16,8 @@ USER 10014
 # Port 8080 expose karein
 EXPOSE 8080
 
-# CMD mein sirf arguments dein (Kyunke 'v2ray' pehle se image mein set hai)
-CMD ["run", "-config", "/etc/v2ray/config.json"]
+# Pehle purana entrypoint clear karen
+ENTRYPOINT []
+
+# Ab poori command khud likhen
+CMD ["/usr/bin/v2ray", "run", "-c", "/etc/v2ray/config.json"]
